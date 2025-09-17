@@ -1,4 +1,4 @@
-# Personal Finance App
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-17 at 20 38 07" src="https://github.com/user-attachments/assets/89ecada9-7585-4831-833b-f24045c37e6c" /># Personal Finance App
 
 A comprehensive cross-platform mobile application for managing personal finances, built with React Native and native modules.
 
@@ -35,18 +35,6 @@ A comprehensive cross-platform mobile application for managing personal finances
 - **Native Modules**: Swift (iOS) + Kotlin (Android)
 - **Testing**: Jest, XCTest, JUnit, Appium
 
-### Project Structure
-```
-src/
-├── components/          # Reusable UI components
-├── screens/            # Main app screens
-├── services/           # API and native module services
-├── store/              # Redux store and slices
-├── types/              # TypeScript type definitions
-├── utils/              # Utility functions and algorithms
-├── native-modules/     # Native module implementations
-└── __tests__/         # Test files
-```
 
 ## 🛠️ Installation
 
@@ -59,17 +47,17 @@ src/
 ### Setup Instructions
 
 1. **Clone the repository**
-   ```bash
+   
    git clone <repository-url>
    cd PersonalFinanceApp
-   ```
+   
 
 2. **Install dependencies**
-   ```bash
+   
    npm install
    # or
    yarn install
-   ```
+   
 
 3. **iOS Setup**
    ```bash
@@ -91,41 +79,6 @@ src/
    npm run android
    ```
 
-## 🧪 Testing
-
-### Unit Tests
-```bash
-# Run all tests
-npm test
-
-# Run tests with coverage
-npm run test:coverage
-
-# Run tests in watch mode
-npm run test:watch
-```
-
-### Native Module Tests
-```bash
-# iOS Tests
-cd ios
-xcodebuild test -workspace MapProject.xcworkspace -scheme MapProject
-
-# Android Tests
-cd android
-./gradlew test
-```
-
-### E2E Tests
-```bash
-# Install Appium
-npm install -g appium
-
-# Run E2E tests
-npm run e2e
-```
-
-## 📊 Performance Optimization
 
 ### Implemented Optimizations
 - **Lazy Loading**: Transactions load incrementally with infinite scroll
@@ -140,31 +93,8 @@ npm run e2e
 - Render performance profiling
 - Battery usage optimization
 
-## 🔧 Data Structures & Algorithms
 
-### Implemented Algorithms
-1. **Transaction Grouping**: Groups transactions by category and calculates totals
-2. **Date Sorting**: Sorts transactions by date in descending order
-3. **Compound Interest**: Recursive calculation of compound interest over n periods
 
-### Example Usage
-```javascript
-import { 
-  groupTransactionsByCategory, 
-  sortTransactionsByDate, 
-  calculateCompoundInterest 
-} from './src/utils/transactionUtils';
-
-// Group transactions by category
-const categorySummary = groupTransactionsByCategory(transactions);
-// Output: { Food: 70, Transport: 30 }
-
-// Sort transactions by date
-const sortedTransactions = sortTransactionsByDate(transactions, 'desc');
-
-// Calculate compound interest
-const finalAmount = calculateCompoundInterest(1000, 0.05, 5);
-```
 
 ## 🔌 Native Modules
 
@@ -193,9 +123,7 @@ const finalAmount = calculateCompoundInterest(1000, 0.05, 5);
 - Xcode Instruments (iOS)
 - Android Studio Profiler (Android)
 
-See [DEBUGGING.md](docs/DEBUGGING.md) for detailed debugging guide.
 
-## 📈 Analytics & Monitoring
 
 ### Built-in Analytics
 - Expense tracking by category
@@ -250,12 +178,6 @@ See [DEBUGGING.md](docs/DEBUGGING.md) for detailed debugging guide.
 - Write comprehensive tests
 - Document new features
 
-## 📝 Known Issues
-
-### Current Limitations
-- Calendar integration requires iOS 13+ and Android 6+
-- Battery monitoring may not work on all Android devices
-- Chart rendering performance on older devices
 
 ### Planned Improvements
 - Dark mode theme support
@@ -264,29 +186,8 @@ See [DEBUGGING.md](docs/DEBUGGING.md) for detailed debugging guide.
 - Budget tracking features
 - Receipt photo attachment
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Team
-
 - **Lead Developer**: [Amit Sajane]
 - **Backend Developer**: [Amit Sajane]
 
-## 📞 Support
 
-For support and questions:
-- Create an issue on GitHub
-- Email: support@personalfinanceapp.com
-- Documentation: [docs/](docs/)
-
-## 🙏 Acknowledgments
-
-- React Native community
-- Redux team
-- Chart.js contributors
-- Native module developers
-
----
-
-**Note**: This is a comprehensive personal finance management app built as a demonstration of advanced React Native development skills, including native module integration, performance optimization, and testing strategies.
