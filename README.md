@@ -1,4 +1,4 @@
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-17 at 20 38 07" src="https://github.com/user-attachments/assets/89ecada9-7585-4831-833b-f24045c37e6c" /># Personal Finance App
+# Personal Finance App
 
 A comprehensive cross-platform mobile application for managing personal finances, built with React Native and native modules.
 
