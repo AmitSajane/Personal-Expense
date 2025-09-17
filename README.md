@@ -18,9 +18,15 @@ A comprehensive cross-platform mobile application for managing personal finances
 - **Infinite Scroll**: Efficient loading of large transaction lists
 - **Form Validation**: Real-time validation with user-friendly error messages
 - **State Management**: Redux with persistence for reliable data management
+
 - **Performance Optimized**: Lazy loading, memoization, and efficient rendering
 
 ## 📱 Screenshots
+- <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-17 at 20 38 26" src="https://github.com/user-attachments/assets/5e76648b-d33f-4a00-9b49-001354baec8b" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-17 at 20 38 20" src="https://github.com/user-attachments/assets/7f2f3b15-f9ff-4386-aeb6-7a9a93d5fc95" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-17 at 20 38 13" src="https://github.com/user-attachments/assets/71bd7be4-90ee-411a-ad96-564b11f7ebe5" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-17 at 20 38 07" src="https://github.com/user-attachments/assets/4b2cb794-b796-41c5-b059-f279db2bffcc" />
+
 
 *Screenshots will be added after running the app*
 
